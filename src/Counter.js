@@ -5,8 +5,8 @@ const Counter = ({ counts }) => (
     <ul>
       {Object.entries(counts).map(([color, count]) => (
         <li key={color}>
-          <span>{color}:</span>
-          <span>{count}</span>
+          <span style={{ color: color }}>{color}</span>
+          <span>: {count}</span>
         </li>
       ))}
     </ul>

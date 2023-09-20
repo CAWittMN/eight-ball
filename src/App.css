@@ -1,5 +1,5 @@
 .App {
-  margin-top: 10rem;
+  margin-top: 3rem;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -14,6 +14,6 @@
 }
 
 .App-counter-container {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 2rem;
 }
